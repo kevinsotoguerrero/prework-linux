@@ -150,6 +150,7 @@ standar error: 2
 `grep -c the movies.csv` cuenta el numero de ocurrencias<br>
 `grep -ci the movies.csv` cuenta con ignore case<br>
 `grep -vi towers movies.csv` los que no tienen towers ignore case<br>
+
 `wc movies.csv` cuenta cuantas palabras tiene el archivo muestra lineas, palabras y bits<br>
 
 ## Comprimir archivos
