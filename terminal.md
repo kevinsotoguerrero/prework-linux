@@ -64,7 +64,7 @@ standar error: 2
 `ls nombrecarpeta >> archivo.txt` concatena lo que hay en archivo adicionandole lo que trae ls nombrecarpeta<br>
 `ls carpetainexistente 2> archivo.txt` guarda la salida de standar error en archivo<br>
 `ls carpetainexistente > archivo.txt 2>&1` guarda en archivo sea que salga un error o que traiga el listado<br>
-`|` hace que el output del anterior se vuelva input del siguiente
+`|` hace que el output del anterior se vuelva input del siguiente<br>
 `ls -lh | less` crea la lista y la muestra con less (apta para busqueda)<br>
 `ls -lh | tee archivo.txt | less` crea la lista la guarda en el archivo y despues la muestra con less<br>
 `ls -lh | sort | tee archivo.txt | less` crea la lista, la ordena, la guarda en el archivo y la muestra con less<br>
@@ -143,7 +143,7 @@ standar error: 2
 `find ./ -type fd -name nombre`  busca archivos file o directorios<br>
 `find ./ -type f -name  *.log`<br>
 `find ./ -size 20M` todos los mayores a 20M<br>
-- GREP: encuentra coincidencias dentro de cualquier archivo
+- GREP: encuentra coincidencias dentro de cualquier archivo<br>
 `grep Towers movies.csv` busca todas la lineas que tengan el nombre Towers en el archivo movies<br>
 `grep -i the movies.csv` ignore case<br>
 `grep -i the movies.csv | less` y lo muestra en less<br>
@@ -171,11 +171,12 @@ standar error: 2
 
 ## Editores
 
-`vim index.html` crea el archivo, se presiona la tecla<br>
-    `i` para insertar<br>
-    `esc` para navegar dentro del archivo<br>
-    `/` para buscar<br>
-    `dd` para eliminar linea estando en normal<br>
-    `:w` para guardar<br>
-    `:wq` para guardar y salir<br>
+- `vim index.html` crea el archivo, se presiona la tecla<br>
+`i` para insertar<br>
+`esc` para navegar dentro del archivo<br>
+`/` para buscar<br>
+`dd` para eliminar linea estando en normal<br>
+`:w` para guardar<br>
+`:wq` para guardar y salir<br>
+
 `nano nombre` editar archivo<br>
